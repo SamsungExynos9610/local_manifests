@@ -7,10 +7,12 @@
   <!--Device tree-->
   <project name="SamsungExynos9610/android_device_samsung_exynos9610-common" path="device/samsung/exynos9610-common" revision="twelve" remote="github"/>
   <project name="SamsungExynos9610/android_device_samsung_a505fn" path="device/samsung/a505fn" revision="twelve" remote="github"/>
+  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="lineage" revision="lineage-19.0" />
+  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="lineage" revision="lineage-19.0" />
   <!--Blobs-->
   <project name="SamsungExynos9610/android_vendor_samsung_exynos9610-common" path="vendor/samsung/exynos9610-common" revision="twelve" remote="github"/>
   <project name="SamsungExynos9610/android_vendor_samsung_a505fn" path="vendor/samsung/a505fn" revision="twelve" remote="github"/>
   <!--Kernel-->
-  <project name="Galaxya50/android_kernel_samsung_a50-common" path="kernel/samsung/exynos9610" revision="twelve" remote="github"/>
+  <project name="Galaxya50/android_kernel_samsung_a50-common" path="kernel/samsung/exynos9610" revision="android-12.0" remote="github"/>
 
 </manifest>

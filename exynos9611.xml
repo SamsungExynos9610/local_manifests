@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="exynos9611"
+          fetch="https://github.com/samsungexynos9610"
+          revision="thirteen" />
+  
+<remote name="exynos9810"
+          fetch="https://github.com/samsungexynos9810"
+          revision="thirteen" />
+
+  <!--Device tree-->
+  <project name="device_samsung_exynos9611-common" path="device/samsung/exynos9611-common" remote="exynos9611"/>
+  <project name="device_samsung_a50s" path="device/samsung/a50s" remote="exynos9611"/>
+
+  <!-- Vendor -->
+  <project name="vendor_samsung_exynos9611-common" path="vendor/samsung/exynos9611-common" remote="exynos9611"/>
+  <project name="vendor_samsung_a50s" path="vendor/samsung/a50s" remote="exynos9611"/>
+
+  <!-- SLSI -->
+  <project name="device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="exynos9810"/>
+  
+  <!-- Kernel -->
+  <project name="kernel_samsung_exynos9611" path="kernel/samsung/exynos9611" remote="exynos9611"/>
+
+</manifest>

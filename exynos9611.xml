@@ -9,6 +9,10 @@
           fetch="https://github.com/samsungexynos9810"
           revision="thirteen" />
 
+<remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-20" />
+
   <!--Device tree-->
   <project name="device_samsung_exynos9611-common" path="device/samsung/exynos9611-common" remote="exynos9611"/>
   <project name="device_samsung_a50s" path="device/samsung/a50s" remote="exynos9611"/>
@@ -19,6 +23,10 @@
 
   <!-- SLSI -->
   <project name="device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="exynos9810"/>
+  <project name="android_hardware_samsung_slsi_libbt" path="hardware/samsung_slsi/libbt" remote="lineage"/>
+  <project name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" remote="lineage"/>
+  <project name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" remote="lineage"/>
+  
   
   <!-- Kernel -->
   <project name="kernel_samsung_exynos9611" path="kernel/samsung/exynos9611" remote="exynos9611"/>
